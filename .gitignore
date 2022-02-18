@@ -6,11 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
-# Part of APEWORX
+# Part of APEWORX 
 bin/
 lib64/..
 lib64
 pyvenv.cfg
+share/man/man1/ipython.1
 
 # Distribution / packaging
 .Python
