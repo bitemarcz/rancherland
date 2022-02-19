@@ -3,8 +3,11 @@
 pragma solidity ^0.8.12;
 
 contract CattleBranding {
-    int registrationID; // this could also be the brand number automatically generated 
-    int registrationImage; // this needs to be a hashed value 
+
+
+    stuct Branding { // Branding struct that will track user information and branding information
+        int registrationID; // this could also be the brand number automatically generated 
+    bytes32 registrationImage; // this needs to be a hashed value 
     int areaCode;
     string email; 
     string brandOwnerFname;
@@ -12,7 +15,6 @@ contract CattleBranding {
     string streetAddress;
     string city;
     string state;
-
-
-
+    }
+    
 }
