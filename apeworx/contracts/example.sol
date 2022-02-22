@@ -38,6 +38,6 @@ contract ZombieFactory {
 
 }
 
-contract ZombieFeeding is ZombieFactory { // example of inheritane 
+contract ZombieFeeding is ZombieFactory { // example of inheritane
     
 }
