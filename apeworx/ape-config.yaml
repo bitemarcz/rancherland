@@ -11,6 +11,6 @@ ethereum:
   mainnet: 
     default-provider: alchemy
 
-harhat:
+hardhat:
   mainnet_fork:
     upstream_provider: alchemy
