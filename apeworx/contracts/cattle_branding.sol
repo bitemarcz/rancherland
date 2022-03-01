@@ -32,7 +32,7 @@ contract CattleBrandingFactory {
     mapping (address => uint) ownerCattleBrandCount;
 
     function _createCattleBrandId(bytes32 _registrationImage, string memory _brandDetails, string memory _county, string memory _ownerDetails) private {
-        brandId = brandings.push(CattleBrand(_registrationImage, _brandDetails, _county, _ownerDetails)); // somehow need to perform a conversion from tuple to brandId
+        brandId = brandings.push(CattleBrand(_registrationImage, _brandDetails, _county, _ownerDetails)); // somehow need to perform a conversion from tuple to unint
         cattleBrandToOwner[brandId] = msg.sender;
         ownerCattleBrandCount[msg.sender]++;
         emit NewCattleBrand(brandId, _registrationImage, _brandDetails, _county, _ownerDetails);
