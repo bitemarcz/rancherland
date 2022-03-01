@@ -6,7 +6,7 @@ contract CattleBrandingFactory {
 
     event NewCattleBrand(uint cattleBrandId, bytes32 registrationImage, string brandDetails, string county, string ownerDetails);
 
-    uint brandId; // public state variables these details are also used for selling brands can be tied later to NFT
+    uint brandId; // public state variables these details are also used for selling brands can be tied later to NFT for selling brands
     uint randImageId;
     uint Pnumber;
     uint areaCode;
