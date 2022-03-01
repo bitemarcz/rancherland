@@ -12,6 +12,8 @@ lib64/..
 lib64
 pyvenv.cfg
 share/man/man1/ipython.1
+apeworx/.build
+apeworx/hardhat.config.js
 
 # Distribution / packaging
 .Python
@@ -134,3 +136,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# More stuff
