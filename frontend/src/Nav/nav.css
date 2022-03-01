@@ -1,0 +1,290 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.nav-cta-button {
+    height: 30px;
+    display: flex;
+    border: 0;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    background: rgb(53, 53, 53);
+    background-size: 200% 200%;
+    transition: 0.3s;
+    width: 245px;
+    align-items: center;
+  }
+  
+  .address-display {
+    height: 30px;
+    display: flex;
+    border: 0;
+    width: 100%;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    background: rgb(53, 53, 53);
+    background-size: 200% 200%;
+    transition: 0.3s;
+    width: 245px;
+    align-items: center;
+  }
+
+  .address-display:hover {
+    background-color: #b4b4b4;
+  }
+
+  .type-address {
+    display: flex;
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #c4c4c4;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .paste-bar {
+    height: 25px;
+    display: flex;
+    border: 0;
+    outline: none;
+    padding-left: 20px;
+    border-radius: 10px;
+    cursor: text;
+    color: #4e4e4e;
+    font-size: 13px;
+    background: #c4c4c4;
+    background-size: 200% 200%;
+    transition: 0.3s;
+    width: 100%;
+    align-items: center;
+  }
+
+  .donate-box {
+    height: 100%;
+    display: flex;
+    margin: 0px 5px 0px 5px;
+    border: 0;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .donate-panel {
+    margin-top: 10px;
+    text-align: center; 
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(160, 160, 160);
+  }
+
+  
+  .copy-address {
+    display: flex;
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(53, 53, 53);
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .donate-bar {
+    height: 25px;
+    width: 240px;
+    display: flex;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+    cursor: text;
+    color: #000000;
+    font-size: 13px;
+    font-weight: bold;
+    background: rgb(206, 206, 206);
+    background-size: 200% 200%;
+    transition: 0.3s;
+    align-items: center;
+  }
+
+  .donate-item {
+    height: 70px;
+    display: flex;
+    margin: 2px;
+    align-items: flex-end;
+    background-color: #141414;
+    border-radius: var(--border-radius);
+    transition: background var(--speed);
+    padding-bottom: 5px;
+    justify-content: center;
+  }
+
+  .donate-item:hover {
+    background-color: #3d1b1b;
+  }
+
+  .donate-button {
+    height: 25px;
+    display: flex;
+    margin: 0px 5px 0px 5px;
+    width: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0;
+    background-color: #141414;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .textarea {
+    height: 0;
+    width: 0;
+  }
+
+  .submit-button {
+    height: 25px;
+    display: flex;
+    margin: 0px 3px 0px 3px;
+    width: 50px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000000;
+    cursor: pointer;
+    border: 0;
+    background-color: #a1a1a1;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .paste-bar:hover {
+    color:#b4b4b4;
+  }
+
+  .submit-button:hover {
+    background-color: #b4b4b4;
+    color: #141414;
+  }
+ 
+  /* .paste-bar:focus::placeholder {
+    color: transparent;
+  } */
+
+  .paste-bar:hover::placeholder {
+    color: transparent;
+  }
+
+  .paste-bar::placeholder {
+    color: #000000;
+    display: flex;
+    align-items: baseline;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .container {
+    text-align: center;
+    }
+    .toggle-switch {
+    position: relative;
+    width: 65px;
+    display: inline-block;
+    text-align: left;
+    top: 8px;
+    }
+    .checkbox {
+    display: none;
+    }
+    .label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 0 solid #bbb;
+    border-radius: 5px;
+    }
+    .inner {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+    }
+    .inner:before,
+    .inner:after {
+    float: left;
+    width: 50%;
+    height: 30px;
+    padding: 0;
+    line-height: 30px;
+    color: #fff;
+    font-weight: bold;
+    box-sizing: border-box;
+    }
+    .inner:before {
+    content: "";
+    padding-left: 10px;
+    background-color: #060;
+    color: #fff;
+    }
+    .inner:after {
+    content: "";
+    padding-right: 10px;
+    background-color: #bbb;
+    color: #fff;
+    text-align: right;
+    }
+    .switch {
+    display: block;
+    width: 24px;
+    margin: 5px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 30px;
+    border: 0 solid #bbb;
+    border-radius: 5px;
+    transition: all 0.3s ease-in 0s;
+    }
+    .checkbox:checked + .label .inner {
+    margin-left: 0;
+    }
+    .checkbox:checked + .label .switch {
+    right: 0px;
+    }
+    
