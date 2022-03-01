@@ -1,0 +1,16 @@
+plugins:
+  - name: solidity # used to compile the contract
+  - name: hardhat # used to run tests
+  - name: alchemy # used for mainnet-fork in test and deploying later
+  # - name: infura might need this since it has ipfs api 
+
+ethereum:
+  default-network: mainnet-fork
+  mainnet-fork: 
+    default-provider: hardhat
+  mainnet: 
+    default-provider: alchemy
+
+harhat:
+  mainnet_fork:
+    upstream_provider: alchemy
